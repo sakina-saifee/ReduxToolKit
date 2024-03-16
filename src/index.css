@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.user-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.add-btn{
+  background-color: black;
+  color: white;
+  /* height: 20px; */
+  padding: 0px 12px;
+  border: none;
 }
+.userRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trash{
+
+  color:rgb(255, 0, 0) !important;
+  /* padding: 2px 4px;
+  border: none; */
+  font-size: 20px;
+  margin-top: 12px;
+  
+}
+.trash:hover{
+cursor: pointer;
+}
+
+.DeleteAllBtn{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.DeleteAllBtn button{
+  background-color: red;
+  color: white;
+  padding: 12px 5px;
+  border: none;
+  border-radius: 12px;
+}
+
+.pencil{
+  color:green !important;
+  /* padding: 2px 4px;
+  border: none; */
+  font-size: 20px;
+  margin-top: 12px;
+}
+.pencil:hover{
+  cursor: pointer;
+  }
+  
+  .editIcons .pencil{
+   margin-right: 22px;
+   margin-left: 22px;
+    
+  }
